@@ -1,3 +1,7 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 header{
     height: 81px;
     background-color: darkblue;
@@ -12,17 +16,31 @@ header{
 
 .main-container-article {
     width: 70%;
-    border: 1px solid black;
     display: inline-block;
 }
 
+.article-title{
+    border-top: 20px solid #CFE2F3;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
 .main-container-sidebar {
     display: inline-block;
     border: 1px black solid;
-    width: 29%; 
-    float: right;
-  
 }
+
+.main-container-sidebar.left {
+    width: 12%;
+    float: left;
+}
+
+.main-container-sidebar.right {
+    width:17%;
+    float: right; 
+}
+
 
 footer{
     height: 200px;
@@ -30,4 +48,29 @@ footer{
     color: white;
     text-align: center;
     border: 2px solid black;
+    clear: both;
+}
+
+.side-article{
+    padding:5px;
+    margin-bottom:15px;
+}
+
+.side-article:hover{
+    background-color: fuchsia;
+    color: aqua;
+    margin: 40px 0; 
+    border: 4px dotted goldenrod;
+}
+
+.img-placeholder{
+    height:100px;
+    width:100%;
+    background-color:darkblue;
+    
+}
+
+.side-article-title{
+    border-bottom: 1px solid black;
+    
 }
